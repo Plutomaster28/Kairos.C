@@ -40,7 +40,7 @@ For further information, contact:
 
 **Tomoko Saito**  
 Meisei Technologies  
-[Additional information on how to get into contact](https://miyamii-coms.carrd.co/)
+[Additional information on how to get into contact](https://miyamii.carrd.co/)
 
 **Signed:**
 
