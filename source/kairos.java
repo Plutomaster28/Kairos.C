@@ -1,4 +1,4 @@
-package tomoko.kairos_c.utils;
+package source;
 
 import java.util.*;
 
@@ -15,7 +15,80 @@ public class kairos {
      * @param args The arguments to be formatted and printed.
      */
     public static void printf(String format, Object... args) {
-        System.out.printf(format, args);
+        if (format == null || format.isEmpty()) {
+            System.out.println();
+        } else {
+            System.out.printf(format, args);
+        }
+    }
+
+    /**
+     * Prints a string to the console.
+     * 
+     * @param message The message to be printed.
+     */
+    public static void print(String message) {
+        if (message == null) {
+            System.out.print("");
+        } else {
+            System.out.print(message);
+        }
+    }
+
+    /**
+     * Prints a string to the console with a newline.
+     * 
+     * @param message The message to be printed.
+     */
+    public static void println(String message) {
+        if (message == null) {
+            System.out.println();
+        } else {
+            System.out.println(message);
+        }
+    }
+
+    /**
+     * Prints a newline to the console.
+     */
+    public static void println() {
+        System.out.println();
+    }
+
+    /**
+     * Prints a boolean to the console with a newline.
+     * 
+     * @param value The boolean value to be printed.
+     */
+    public static void println(boolean value) {
+        System.out.println(value);
+    }
+
+    /**
+     * Prints an integer to the console with a newline.
+     * 
+     * @param value The integer value to be printed.
+     */
+    public static void println(int value) {
+        System.out.println(value);
+    }
+
+    /**
+     * Prints a double to the console with a newline.
+     * 
+     * @param value The double value to be printed.
+     */
+    public static void println(double value) {
+        System.out.println(value);
+    }
+
+    /**
+     * Prints an object to the console with a newline.
+     * 
+     * @param value The object to be printed.
+     */
+    public static void println(Object value) {
+        System.out.println(value);
     }
 
     // Scanner object used for reading user input from the console.
