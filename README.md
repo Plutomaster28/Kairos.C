@@ -4,6 +4,10 @@
 
 The Kairos Utility Library provides a set of helper methods for common tasks such as formatted output, input handling, string manipulation, collections, and exception wrapping. It is designed to simplify everyday programming tasks and improve productivity.
 
+It basically makes Java less of a pain in the ass to work with (and in my opinion) makes it slightly less of an eye sore to look at.
+
+This entire thing was made solely to prove a point.
+
 ## Features
 
 - **Formatted Output**: Simplified `printf` functionality.
