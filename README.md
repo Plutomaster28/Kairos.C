@@ -27,7 +27,8 @@ The Kairos Utility Library provides a set of helper methods for common tasks suc
 2. **Example Usage**
 
    ```java
-   import tomoko.kairos_c.utils.kairos;
+   package test;
+   import source.kairos;
 
    public class Main {
        public static void main(String[] args) {
